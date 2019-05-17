@@ -1,0 +1,8 @@
+#!/usr/local/bin/node
+
+let total = "";
+a = ["ant", "bat", "cat", 42];
+for (let i = 0; i < a.length; i++) {
+    total = total + a[i];
+    console.log(total);
+  }
